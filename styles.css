@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px lightgray;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+ 
+
+    
+
+}
+
+.header-container {
+   
+    color: black;
+    max-width: 1200px;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    
+
+
+}
+
+.logo-container h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav a:hover {
+    background-color: gray;
+    
+    
+}
+
+main {
+    position: relative;
+   
+}
+
+.splash {
+    
+    margin: auto;
+    height: 500px;
+    max-width: 1200px;
+    
+
+}
+
+.splash-container {
+    
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    
+    
+
+}
+
+.leftsplash {
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.leftsplash h2 {
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+
+.animate__pulse {
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+}
+
+.leftsplash p {
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.rightsplash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-testimonial {
+    height: 500px;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1543270122-f7a11ad44f3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    opacity: .8;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.img-testimonial p {
+    font-weight: 500;
+    font-style: italic;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    
+    padding: 20px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 2px;
+}
